@@ -33,6 +33,10 @@ table.Programs th, table.Programs td {
 }
 /* Table Caption Styles */
 
+table.Programs caption {
+   caption-side: bottom;
+   text-align: center;
+}
 
 /* Table Column Styles */
 col.timeColumn {
@@ -51,10 +55,24 @@ col.wEndcolumns {
 }
 /* Table Header Styles */
 
+table.Programs thead {
+   color: white;
+   background: rgb(105, 177, 60);
+}
 
+table.Programs thead th:first-of-type {
+   background: rgb(153, 86, 7);
+}
+
+table.Programs thead th:nth-of-type(7), table.Programs thead th:nth-of-type(8){
+   background: rgb(153, 0, 153);
+}
 
 /* Table Footer Styles */
-
+table.Programs tfoot {
+   color: white;
+   background: black;
+}
 
 
 
