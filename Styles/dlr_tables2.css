@@ -16,10 +16,10 @@
 /* Table Styles */
 
 table.Programs {
-   font-family: Arial, Verdana, sans-serif;
+   width: 100%;
    border: 15px outset rgb(151, 151, 151);
    border-collapse: collapse;
-   width: 100%;
+   font-family: Arial, Verdana, sans-serif;
 }
 
 table.Programs tr {
@@ -33,27 +33,22 @@ table.Programs th, table.Programs td {
 }
 /* Table Caption Styles */
 
-table.Programs caption {
-   caption-side: bottom;
-   text-align: center;
-}
 
 /* Table Column Styles */
-
 col.timeColumn {
    width: 10%;
    background: rgb(215, 205, 151);
 }
-col#wDaysColumns {
+
+col.wDayColumns {
    width: 11%;
    background: rgb(236, 255, 211);
 }
 
-col#wEndColumns {
+col.wEndcolumns {
    width: 17%;
    background: rgb(255, 231, 255);
 }
-
 /* Table Header Styles */
 
 
